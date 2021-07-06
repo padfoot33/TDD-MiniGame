@@ -1,102 +1,17 @@
 {
-  "api/Tag.BaseView.html": {
-    "href": "api/Tag.BaseView.html",
-    "title": "Class BaseView | TDD-Mini Game",
-    "keywords": "Class BaseView Inheritance Object BaseView GamePlayView HomeView Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class BaseView : MonoBehaviour Methods Hide() Declaration public void Hide() Show() Declaration public void Show()"
-  },
-  "api/Tag.ContainerBox.html": {
-    "href": "api/Tag.ContainerBox.html",
-    "title": "Class ContainerBox | TDD-Mini Game",
-    "keywords": "Class ContainerBox Inheritance Object ContainerBox Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class ContainerBox : MonoBehaviour Fields foodSpriteRenderer Declaration public SpriteRenderer foodSpriteRenderer Field Value Type Description SpriteRenderer isBoxFilled Declaration public bool isBoxFilled Field Value Type Description Boolean requiredFoodData Declaration public FoodData requiredFoodData Field Value Type Description FoodData Methods IsValidFood(FoodData) Declaration public bool IsValidFood(FoodData data) Parameters Type Name Description FoodData data Returns Type Description Boolean MoveMe(Single) Declaration public void MoveMe(float speed) Parameters Type Name Description Single speed SetFoodData(FoodData) Declaration public void SetFoodData(FoodData foodData) Parameters Type Name Description FoodData foodData"
-  },
-  "api/Tag.ContainerBoxGenerator.html": {
-    "href": "api/Tag.ContainerBoxGenerator.html",
-    "title": "Class ContainerBoxGenerator | TDD-Mini Game",
-    "keywords": "Class ContainerBoxGenerator Inheritance Object ContainerBoxGenerator Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class ContainerBoxGenerator : MonoBehaviour Fields containerBoxPrefab Declaration public ContainerBox containerBoxPrefab Field Value Type Description ContainerBox Instance Declaration public static ContainerBoxGenerator Instance Field Value Type Description ContainerBoxGenerator spawanPoint Declaration public Transform spawanPoint Field Value Type Description Transform Methods Generate() Declaration public void Generate()"
-  },
-  "api/Tag.ConveyorBelt.html": {
-    "href": "api/Tag.ConveyorBelt.html",
-    "title": "Class ConveyorBelt | TDD-Mini Game",
-    "keywords": "Class ConveyorBelt Inheritance Object ConveyorBelt Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class ConveyorBelt : MonoBehaviour Fields speed Declaration public float speed Field Value Type Description Single Methods IncreaseSpeed(Single) Declaration public void IncreaseSpeed(float value) Parameters Type Name Description Single value"
-  },
-  "api/Tag.DataManager.html": {
-    "href": "api/Tag.DataManager.html",
-    "title": "Class DataManager | TDD-Mini Game",
-    "keywords": "Class DataManager Inheritance Object DataManager Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class DataManager : MonoBehaviour Fields Instance Declaration public static DataManager Instance Field Value Type Description DataManager Properties Score Declaration public int Score { get; } Property Value Type Description Int32 Methods UpdateScore(Int32) Declaration public void UpdateScore(int increment) Parameters Type Name Description Int32 increment"
-  },
-  "api/Tag.FoodButton.html": {
-    "href": "api/Tag.FoodButton.html",
-    "title": "Class FoodButton | TDD-Mini Game",
-    "keywords": "Class FoodButton Inheritance Object FoodButton Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class FoodButton : MonoBehaviour Fields foodData Declaration public FoodData foodData Field Value Type Description FoodData Methods Click() Declaration public void Click() SetFoodData(FoodData) Declaration public void SetFoodData(FoodData foodData) Parameters Type Name Description FoodData foodData"
-  },
-  "api/Tag.FoodData.html": {
-    "href": "api/Tag.FoodData.html",
-    "title": "Class FoodData | TDD-Mini Game",
-    "keywords": "Class FoodData Inheritance Object FoodData Namespace : Tag Assembly : cs.temp.dll.dll Syntax [Serializable] public class FoodData Constructors FoodData(String, Sprite) Declaration public FoodData(string id, Sprite sprite) Parameters Type Name Description String id Sprite sprite Fields id Declaration public string id Field Value Type Description String sprite Declaration public Sprite sprite Field Value Type Description Sprite"
-  },
-  "api/Tag.FoodItem.html": {
-    "href": "api/Tag.FoodItem.html",
-    "title": "Class FoodItem | TDD-Mini Game",
-    "keywords": "Class FoodItem Inheritance Object FoodItem Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class FoodItem : MonoBehaviour Fields foodData Declaration public FoodData foodData Field Value Type Description FoodData spriteRenderer Declaration public SpriteRenderer spriteRenderer Field Value Type Description SpriteRenderer Methods GetUniqueId() Declaration public string GetUniqueId() Returns Type Description String SetFoodData(FoodData) Declaration public void SetFoodData(FoodData data) Parameters Type Name Description FoodData data"
-  },
-  "api/Tag.FoodManager.html": {
-    "href": "api/Tag.FoodManager.html",
-    "title": "Class FoodManager | TDD-Mini Game",
-    "keywords": "Class FoodManager Inheritance Object FoodManager Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class FoodManager : MonoBehaviour Fields buttonPrefab Declaration public FoodButton buttonPrefab Field Value Type Description FoodButton foodbuttonList Declaration public List<FoodButton> foodbuttonList Field Value Type Description List < FoodButton > foodDataList Declaration public List<FoodData> foodDataList Field Value Type Description List < FoodData > Instance Declaration public static FoodManager Instance Field Value Type Description FoodManager numberOfButtons Declaration public int numberOfButtons Field Value Type Description Int32 Methods GetCurrentFoodButtonData() Declaration public FoodData GetCurrentFoodButtonData() Returns Type Description FoodData Init() Declaration public void Init()"
-  },
-  "api/Tag.GamePlayManager.html": {
-    "href": "api/Tag.GamePlayManager.html",
-    "title": "Class GamePlayManager | TDD-Mini Game",
-    "keywords": "Class GamePlayManager Inheritance Object GamePlayManager Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class GamePlayManager : MonoBehaviour Fields Instance Declaration public static GamePlayManager Instance Field Value Type Description GamePlayManager timer Declaration public Timer timer Field Value Type Description Timer vendingMachine Declaration public VendingMachine vendingMachine Field Value Type Description VendingMachine Methods StartGame() Declaration public void StartGame()"
-  },
-  "api/Tag.GamePlayView.html": {
-    "href": "api/Tag.GamePlayView.html",
-    "title": "Class GamePlayView | TDD-Mini Game",
-    "keywords": "Class GamePlayView Inheritance Object BaseView GamePlayView Inherited Members BaseView.Show() BaseView.Hide() Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class GamePlayView : BaseView Fields buttonPannelTransform Declaration public Transform buttonPannelTransform Field Value Type Description Transform"
-  },
-  "api/Tag.HomeView.html": {
-    "href": "api/Tag.HomeView.html",
-    "title": "Class HomeView | TDD-Mini Game",
-    "keywords": "Class HomeView Inheritance Object BaseView HomeView Inherited Members BaseView.Show() BaseView.Hide() Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class HomeView : BaseView Methods OnPlayButton() Declaration public void OnPlayButton()"
-  },
-  "api/Tag.html": {
-    "href": "api/Tag.html",
-    "title": "Namespace Tag | TDD-Mini Game",
-    "keywords": "Namespace Tag Classes BaseView ContainerBox ContainerBoxGenerator ConveyorBelt DataManager FoodButton FoodData FoodItem FoodManager GamePlayManager GamePlayView HomeView LifeManager Timer UIManager VendingMachine"
-  },
-  "api/Tag.LifeManager.html": {
-    "href": "api/Tag.LifeManager.html",
-    "title": "Class LifeManager | TDD-Mini Game",
-    "keywords": "Class LifeManager Inheritance Object LifeManager Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class LifeManager : MonoBehaviour Fields Instance Declaration public static LifeManager Instance Field Value Type Description LifeManager Properties Life Declaration public int Life { get; } Property Value Type Description Int32 Methods UpdateLife(Int32) Declaration public void UpdateLife(int value) Parameters Type Name Description Int32 value"
-  },
-  "api/Tag.Timer.html": {
-    "href": "api/Tag.Timer.html",
-    "title": "Class Timer | TDD-Mini Game",
-    "keywords": "Class Timer Inheritance Object Timer Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class Timer : MonoBehaviour Methods GetCurrentTime() Declaration public float GetCurrentTime() Returns Type Description Single Init(Single) Declaration public void Init(float time) Parameters Type Name Description Single time StartTimer() Declaration public void StartTimer() StopTimer() Declaration public void StopTimer() TimerCo() Declaration public IEnumerator TimerCo() Returns Type Description IEnumerator"
-  },
-  "api/Tag.UIManager.html": {
-    "href": "api/Tag.UIManager.html",
-    "title": "Class UIManager | TDD-Mini Game",
-    "keywords": "Class UIManager Inheritance Object UIManager Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class UIManager : MonoBehaviour Fields gamePlayView Declaration public GamePlayView gamePlayView Field Value Type Description GamePlayView homeView Declaration public HomeView homeView Field Value Type Description HomeView Instance Declaration public static UIManager Instance Field Value Type Description UIManager"
-  },
-  "api/Tag.VendingMachine.html": {
-    "href": "api/Tag.VendingMachine.html",
-    "title": "Class VendingMachine | TDD-Mini Game",
-    "keywords": "Class VendingMachine Inheritance Object VendingMachine Namespace : Tag Assembly : cs.temp.dll.dll Syntax public class VendingMachine : MonoBehaviour Fields foodItemPrefab Declaration public FoodItem foodItemPrefab Field Value Type Description FoodItem Methods GenerateFoodItem(FoodData) Declaration public void GenerateFoodItem(FoodData foodData) Parameters Type Name Description FoodData foodData"
-  },
   "index.html": {
     "href": "index.html",
-    "title": "| TDD-Mini Game",
+    "title": "| Example Unity documentation",
     "keywords": ""
   },
   "manual/coniunctis.html": {
     "href": "manual/coniunctis.html",
-    "title": "Coniunctis nec qui et lanient monticolae vitae | TDD-Mini Game",
+    "title": "Coniunctis nec qui et lanient monticolae vitae | Example Unity documentation",
     "keywords": "Coniunctis nec qui et lanient monticolae vitae Opem ille Lorem markdownum cavis exululat inutile. Illi quem caeli, vola patruo difficili Iuppiter Patraeque, est ardebant ingeniis Troica intus Amore tibi mirantem superfusis, multum. Ut Achilles Et sitim Tibi modo ait temptant crinita daret Pariter in removi offensasque Lenaeo damno terra Phoebes ut damnosa classis ignes templo; tua ulla capillos ultima. Videre percusso plectro templa fuit diva minimum debere, quid nomen Philomela animis. Verbis istis flagrat vulnera inpediique ignes. Gravi filo obvius arte Amphionis Panes emisitque iubet. Latona te timens Latentia ante, eundem meritorum sunto ! Elige in timuit templa ferrea, qui arma ligati stagnum turbant. Fraternaque aeternus, dedisse, naufragus corripiens ranas Amathunta et quod laetior culpa nec semper scorpius fuit vicem corpora ardere. Fallit in artus primordia, fratres per aliis , ipsi manu Asiae quod marmorea . mountain(googleVga, pngIphone); var radcabBitrate = dnsCronRecursion; gui(2); ipImageAix += vle(drm_cisc, horizontal + computer_key); jre(vaporware_adc_multi); Lumina ut tamen praesentia vidistis nymphae auroque Bromumque in portant furorem. Visa init resurgere praevitiat canibus et, dedignata turea, ilia. Pisenore mensura insula aere nec per o gladium causa: Alcidae. Veris sentes pallet, alta melius nostra amborum probant, deam. Iuventae dedimus nitidaque hunc traxisse sermonibus pectine flecti an pateres, hac ore gelidis foret semper. Sithon pelle. Bracchia Hippason videntur fateri hosti: palpitat animo est reliquit anne nam confusaque. Interea rex altis munera quem quae quoque rorant, rauco albescere scopulo moriensque parvo, pectus illa, quadrupedes. Notavit haec. Vertit pars quem Euryte casu usta iterum! Ablatum pectus corripiunt neu humus tamquam; ducens stellarum amore. Pulsisque latet, ad tamen victor fulva Tirynthius posco; qui inque in poena quidem enses !"
   },
   "manual/etiam.html": {
     "href": "manual/etiam.html",
-    "title": "Etiam nantemque exul | TDD-Mini Game",
+    "title": "Etiam nantemque exul | Example Unity documentation",
     "keywords": "Etiam nantemque exul Cum tulit Lorem markdownum quos stimulosque altos . Putat nubes molle Troiae vero dea; nostraque plurima . Vos de mihi, credidit: salibus et iacuit, volvitur sunt unda fronti deriguisse refert . Sumpsisse viso Nubila nomine. Purpura se o et causa parva ripas, adsonat saevaque; quid modo ambo et venere voveo. Sine et esse, illa tempore, sive tibi roseo, ministerio altos. Trepident medicamine, primasque cum et peregit dapibusque quoslibet hominis quoque insula. Tepentibus ut Cecropios ab turba, est auro ferventi aliter duratos feres differtis Ausoniis potes, non noctis Laertaque iuvenes. Caelumque vestigia Et promissa fila sentiet leges; Phrygiae et levatus ferire? Salutifer coniugis fierent ante fecissent post vultumque ultima, per radios currere; tandem. Fuerat qua, ne foedera reformatus nunc diu dea audet nonne. Ut utinam mitia tenuerunt movent spectans Mavortis nulla ite, somnos exsiccata dixit Aeetias. Binas Trinacriam album ex ipse. Quoque una utraque tardius placetque gerere; mariti sed dare ludunt memorante Delphice corpora. Caret quantum intellegat venis gaudent eurus. Et suos crista; has et ferarum quid audit omine; mea cum praemia quae duris, suspicor. Adflati qui Spiro conata supprimit diemque; ora oblitus ensem alti non quo lacrimis ferunt, ageret Cebrenida rutilis delendaque? Terras lata modus: nec fas, misi utque adpositis Iunonis. Fide vidit, ferox Schoeneia mundi, voce, tellus pariterque pedum, sic Celadon securior corpora partesque posito. Potest faxo unda pendulaque ille rostro, haesit pars: formidine captat, viseret simulaverat! Sequi est peragit flumineae pallent simulatas formae avulsa, imagine undis; formam. Et nec sed adeunt, huic aequa et ignes nec, medere terram. Move ipsum abnuat retemptat retinebat duabus diu Iovi est pluma. Tecum non deducit Pelops Inachus: arcet aliquemque, regia telo. Tollens altore nec semel qui voce Palatinae Apertis et dei duo inquit ; luna secundo, fervida terret. In haec dextra septima Tydides tibi: congelat hospes nativum radice tegumenque membris Hesperio ne Libys, est vocabula siqua. Dumque stet mulces , ut fontem dea atricolor, est pronos, clarissimus poterat cum intrare sidere templi. cut_metadata(whitelistSequenceUnit.thick.of_bezel_cdma( address_suffix_troubleshooting), sram_trojan(4, hdmi_network - 1)); flash.apache -= web_gps_plug; if (offline.dac_bridge(scrollEbookRom, parameter.internal_target_superscalar(2)) < qwerty + 2 - ipvCgiContextual) { certificateIdeAsp = overclocking + app; supplyCard = siteRaster; } Sagitta curvum quoque petisti opibusque proximitas in, illa vestrum, mihi domum nescia flexit sacra in. Magni vive sim crescente causam saxo voluit, mens, quod. Tela ter ulterius similis illos nato refugit ait verbaque nec fatigatum penates iaculatricemque cecidit pinnas, cum. Misso contigit caelo dedissent lumina; nympha ad vobis occidat, malo sacra utrumque cunctos Diomedeos addita. Virgineus autumnos, ait mitissima curru: fuit sed fessi se habebat hactenus Ultor; meus."
   }
 }

@@ -1,122 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.BaseView.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.ContainerBox.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.ContainerBoxGenerator.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.ConveyorBelt.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.DataManager.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.FoodButton.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.FoodData.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.FoodItem.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.FoodManager.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.GamePlayManager.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.GamePlayView.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.HomeView.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.LifeManager.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.Timer.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.UIManager.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.VendingMachine.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://normanderwan.github.io/DocFxForUnity/api/Tag.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/index.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
+    <lastmod>2021-07-06T09:59:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/manual/coniunctis.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
+    <lastmod>2021-07-06T09:59:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://normanderwan.github.io/DocFxForUnity/manual/etiam.html</loc>
-    <lastmod>2021-07-06T08:56:43+00:00</lastmod>
+    <lastmod>2021-07-06T09:59:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
