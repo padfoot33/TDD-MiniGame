@@ -56,7 +56,7 @@
         ],
         "sitemap": {
             "baseUrl": "https://padfoot33.github.io/TDD-MiniGame/",
-            "changefreq": "weekly",
+            "changefreq": "daily",
             "fileOptions": {
                 "api/*": {
                     "changefreq": "daily"
