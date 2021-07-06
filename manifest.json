@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://padfoot33.github.io/TDD-MiniGame/",
         "changefreq": "daily"
       }
     },
@@ -22,36 +23,204 @@
       "is_incremental": false
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.BaseView.yml",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "0F2JjTIxjy7yPj+vhAsxF5oIlPTs7SXl11YmSD9xpUE="
+          "relative_path": "api/Tag.BaseView.html",
+          "hash": "kDtXmCLCwHp/0NNnm0z0b1/vNTOsmwSqmuju1LUNpbg="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/coniunctis.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ContainerBox.yml",
       "output": {
         ".html": {
-          "relative_path": "manual/coniunctis.html",
-          "hash": "GZZEt5R+hK9JTo2ZhBWH0zEY9pSzAuKyWmLl2rZrfiE="
+          "relative_path": "api/Tag.ContainerBox.html",
+          "hash": "3f2q8OxZUPKwEO9iP5yF9+ddKumtc7IvegVcTkTIl/g="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/etiam.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ContainerBoxGenerator.yml",
       "output": {
         ".html": {
-          "relative_path": "manual/etiam.html",
-          "hash": "i1u81ZUwROuLLl/CAm1GkVeptfPIjYoEaWXjwJtsx/8="
+          "relative_path": "api/Tag.ContainerBoxGenerator.html",
+          "hash": "2azUb6dgVuahESmYHokg5cujYvoDXmgbGDXJZj9D1pc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ConveyorBelt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.ConveyorBelt.html",
+          "hash": "RBz++fZZ/xRyuvq18xe8pcRZgBNnone5U5n6qXUQW40="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.DataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.DataManager.html",
+          "hash": "ppf5SwK0Z4EYgfpN2BzrtBtvAA0bV+5Who01EY/0ZKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodButton.html",
+          "hash": "V/md06Wsb5i7aI52nAdeNC92J97pwG86ogSrSkmTmgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodData.html",
+          "hash": "oj645+Cm27io9e9DMAMl3gaBrAUfB9RbVRK/MTPRydw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodItem.html",
+          "hash": "H6HYy6I5Tt62aVvuBKKfSjwqxMv64xYqTYN9SOtX/K8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodManager.html",
+          "hash": "zc8y8PPyO+wo5z2Om3VG+CmO6AB5nl7tAsVwrPz74xQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.GamePlayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.GamePlayManager.html",
+          "hash": "8AUijfKh+cA+jxI8O1lXnpnTcmlrChES+W6ANNxSaXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.GamePlayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.GamePlayView.html",
+          "hash": "W8RvTPKaEe0MR+awNVywFT6+vM5RDT2ffAHDHxCsrfE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.HomeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.HomeView.html",
+          "hash": "vqiVtjy/rVs1P1qZeB0hIG3axdfndXGtFqeWEch2eTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.LifeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.LifeManager.html",
+          "hash": "RQV2nSnrprpNEqB7f19Tca0xzlWpXeABOeXewgYpQPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.Timer.html",
+          "hash": "taLpd/wbBWPCJ6NS2d8W0VvQe8zCZi1jli/Tbay/wbk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.UIManager.html",
+          "hash": "jHQa1ZuH/OkarhSFWw8Wzmi/izhADy6TeUIK2rqxkew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.VendingMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.VendingMachine.html",
+          "hash": "tu6f8krhwD5Rguiz6TCdXSequEcfbe7Avbb1i/LsrNc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.html",
+          "hash": "rhXq+7k/VAi5iSHAZzQXUBbJlESRR9beZNPAHUOXFqk="
         }
       },
       "is_incremental": false,
@@ -59,11 +228,23 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "manual/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "manual/toc.html",
-          "hash": "rP+c9KPLMLO+q5u7rC7ci/iMYXqbmZC8g5PeGCEXGU4="
+          "relative_path": "api/toc.html",
+          "hash": "J1SFPwAaGn1i4mWLFZBYdR57m1leYuKcZXpLsMgsCNc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "0F2JjTIxjy7yPj+vhAsxF5oIlPTs7SXl11YmSD9xpUE="
         }
       },
       "is_incremental": false,
@@ -119,7 +300,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "g0KsbH+o6pUO8xMUdt1C1uTTcD6e7SeS8Eb3O6fOvEg="
+          "hash": "472yAfD5aQnbe3VBC6FerzhksUtkc04/oiug8bRCJdQ="
         }
       },
       "is_incremental": false,
@@ -140,7 +321,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 17,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
