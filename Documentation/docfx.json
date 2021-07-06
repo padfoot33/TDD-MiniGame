@@ -19,8 +19,8 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "TDD-Mini Game",
-            "_appFooter": "TDD Mini Game Documentation",
+            "_appTitle": "Example Unity documentation",
+            "_appFooter": "Example Unity documentation",
             "_enableSearch": true
         },
         "content": [
