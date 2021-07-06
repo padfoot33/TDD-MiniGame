@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
         "changefreq": "daily"
       }
     },
@@ -22,12 +23,228 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.BaseView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.BaseView.html",
+          "hash": "OuVLkA3Y3KzC1QvwKy4QY7pBKyzXiij1f1NQvWXRfSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ContainerBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.ContainerBox.html",
+          "hash": "FVO8m4JmXXLSe1+wuE/5h6Lm7QZrovxgQ+4gn005oqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ContainerBoxGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.ContainerBoxGenerator.html",
+          "hash": "RN6X/bCEX/re8p8vOFsTKBKDSxzYvIU7hj3EV8dACP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.ConveyorBelt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.ConveyorBelt.html",
+          "hash": "F7+zgCXMwu+TAaRMXZ/tUKKyehh0x/O57EAi0y0l6zI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.DataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.DataManager.html",
+          "hash": "6+pdIDcAe5axB/+FuNBWLrSR0KZGelipNdOZZ0df51U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodButton.html",
+          "hash": "+RQEm/GckEK1lJCWKj8OrcRiSeDGMQXxHTg387QJl2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodData.html",
+          "hash": "HkhdfQ3wcQEdxoZjkkXZpJOaINdbpxyWnA+reThx6/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodItem.html",
+          "hash": "L94yFvE/hiRctuG7KCXoBFyfS/7BObQzBWlbS2sDGLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.FoodManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.FoodManager.html",
+          "hash": "LwlFJiZeIbKrgReTvfZUSGrCk8G9ymQ3TsJNuiN6MBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.GamePlayManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.GamePlayManager.html",
+          "hash": "mrZG/mB1GHOlmm/LImml+CJU5xQp4xf4WniDelbudaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.GamePlayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.GamePlayView.html",
+          "hash": "I/td5Vy1HWFBefAPYUTsW4tN2lO4qBn4EtvIaQ3Cb3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.HomeView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.HomeView.html",
+          "hash": "gGrAZYBHaFAiTLijmVZEIuZmOW1595DcMgZReZFSGLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.LifeManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.LifeManager.html",
+          "hash": "DCuBv2mLVBZmPRaGhzqhHIvfoIQB7uku0pKMJVsz/bA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.Timer.html",
+          "hash": "e+kX3sN7guV09CgyobGQmKlD5RXBUkTCUHnK/yvJisA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.UIManager.html",
+          "hash": "9sWHodP1JuGoGoeIbJuvjJkrC8HT2yfpDiuMMQ18CGo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.VendingMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.VendingMachine.html",
+          "hash": "Mu/USdwYAJuC+Y9QINA5ov9M7oJHEvoE1rvYCi9ABik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tag.html",
+          "hash": "y0flusxzSI32k5WnFOyedKKdc9ipH5vU7MLMswFoScg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "J1SFPwAaGn1i4mWLFZBYdR57m1leYuKcZXpLsMgsCNc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "p+W7ieio0mEcf1Bhz1jdMGlT6WNrtJKonyjKEF9+NQs="
+          "hash": "vWkBiBJ8Z7G8v9TE9HABrBDflIUjJ8Cnyi2zBxP/1Uc="
         }
       },
       "is_incremental": false,
@@ -39,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "EwI3PXPwccEwb56rijNN6Rmc8fGKrLDc9K3TFvcnBLk="
+          "hash": "gF82nUzg5o9sYdxz9KSyVlhnig9G/C8sk2HFcf1Rufc="
         }
       },
       "is_incremental": false,
@@ -51,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "Ev3G+YxIVMY2ZoC8ZmIONFocK8HCHX1qm4rf4tvItWE="
+          "hash": "nrScanASf3Yv3LMj7w2Ov0XtXtQFr8rTQY3mOHFRKs0="
         }
       },
       "is_incremental": false,
@@ -97,7 +314,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "g0KsbH+o6pUO8xMUdt1C1uTTcD6e7SeS8Eb3O6fOvEg="
+          "hash": "wQtAgZG3fmDp4HO1sJZPccnVPVtahd5bvHztC864Qz0="
         }
       },
       "is_incremental": false,
@@ -119,6 +336,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 17,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
