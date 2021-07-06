@@ -13,21 +13,21 @@
                 }
             ],
             "globalNamespaceId": "Global",
-            "filter": "/filterConfig.yml",
+            "filter": "filterConfig.yml",
             "dest": "api"
         }
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "TDD Mini Game",
-            "_appFooter": "TDD Mini Game Documentation",
+            "_appTitle": "TDD - Mini Game",
+            "_appFooter": "TDD - Mini Game documentation",
             "_enableSearch": true
         },
         "content": [
             {
                 "files": [
-                    "/toc.yml",
-                    "/index.md"
+                    "toc.yml",
+                    "index.md"
                 ]
             },
             {
@@ -40,7 +40,7 @@
             {
                 "src": "manual",
                 "files": [
-                    "/toc.yml",
+                    "toc.yml",
                     "*.md"
                 ],
                 "dest": "manual"
@@ -62,7 +62,7 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://padfoot33.github.io/TDD-MiniGame",
+            "baseUrl": "https://padfoot33.github.io/TDD-MiniGame/",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {

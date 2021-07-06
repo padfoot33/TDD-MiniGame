@@ -2,6 +2,9 @@
 
 namespace Tag
 {
+    /// <summary>
+    /// Food Data represents the base level component of this game.
+    /// </summary>
     [System.Serializable]
     public class FoodData
     {
